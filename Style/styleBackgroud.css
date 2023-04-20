@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    background-color: #31566A;
+}
+
+.cantoSuperiorEsquerdo{
+    position: fixed;
+    top: 0px;
+    z-index: 100;
+    left: 0pt;
+}
+
+.olhoSup{
+    width: 70px;
+    height: 70px;
+}
+
+.cantoInferiorDireito{
+    position: fixed;
+    bottom: 0px;
+    z-index: 100;
+    right: 0pt;
+}
+
+.linhaInf1{
+    display: flex;
+    justify-content: end;
+}
+.linhaInf2{
+    display: flex;
+    justify-content: end;
+}
+.linhaInf3{
+    display: flex;
+    justify-content: end;
+}
+.linhaInf4{
+    display: flex;
+    justify-content: end;
+}
