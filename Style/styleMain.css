@@ -5,19 +5,20 @@
 }
 
 .containerCentral{
-    width: 40vw;
+    width: 50vw;
     height: 40vh;
     display: flex;
 }
 
 .logo{
-    width: 60%;
+    width: 50%;
     height: 100%;
     background-color: #31566A;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-shadow: 0.1em 0.1em 0.2em black
 }
 
 .logoMarca{
@@ -40,7 +41,7 @@
 }
 
 .caixaLogin{
-    width: 40%;
+    width: 50%;
     height: 100%;
     background-color: #43687C;
     border-radius: 10px;
@@ -59,20 +60,23 @@
 }
 
 #nomeUsuario{
-    height: 30px;
+    width: 50%;
+    height: 35px;
     border-radius: 5px;
     background-color: #87A6B7;
 }
 
 #senhaUsuario{
     margin-top: 15px;
-    height: 30px;
+    width: 50%;
+    height: 35px;
     border-radius: 5px;
     background-color: #87A6B7
 }
 
 .perguntaLogin{
     margin: 15px;
+    font-weight: 500;
     font-size: 15px;
     color: #97C5DE;
 }
@@ -82,6 +86,7 @@
     width: 35%;
     height: 45px;
     font-size: 1.5rem;
+    font-weight: bold;
     color: #43687C;
     background-color: #87A6B7;
     border-radius: 10px;
@@ -91,4 +96,14 @@
     margin: 0;
     color: #97C5DE;
     font-size: 20px;
+}
+
+::placeholder{
+    color: #43687C;
+}
+
+@media(max-height:700px){
+    .caixaLogin{
+        height: 120%;
+    }
 }
