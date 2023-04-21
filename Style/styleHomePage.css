@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    background-color: #31556A;
+}
+
+.containerGeral{
+    width: 100%;
+    /* background-color: #31556A; */
+}
+
+.headerMenu{
+    width: 220px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #87A6B7;
+}
+
+.logo{
+    margin-top: 30px;
+    height: 20%;
+    display: flex;
+    align-items: flex-start;
+}
+.imgMarca{
+    width: 45px;
+}
+.nomeMarca{
+    margin: 0;
+    margin-left: 10px;
+    font-size: 2rem;
+    color: #97C5DE;
+}
+
+.menuLateral{
+    width: 170px;
+    height: 80%;
+}
