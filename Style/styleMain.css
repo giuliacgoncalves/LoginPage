@@ -1,0 +1,94 @@
+.mainLogin{
+    width: 100%;
+    display: flex;
+    margin: auto;
+}
+
+.containerCentral{
+    width: 40vw;
+    height: 40vh;
+    display: flex;
+}
+
+.logo{
+    width: 60%;
+    height: 100%;
+    background-color: #31566A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logoMarca{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nomeMarca{
+    margin: 0;
+    margin-left: 10px;
+    font-size: 3.5rem;
+    color: #97C5DE;
+}
+
+.fraseLogo{
+    margin: 0;
+    font-size: 3.5rem;
+    color: #97C5DE;
+}
+
+.caixaLogin{
+    width: 40%;
+    height: 100%;
+    background-color: #43687C;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerLogin{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#nomeUsuario{
+    height: 30px;
+    border-radius: 5px;
+    background-color: #87A6B7;
+}
+
+#senhaUsuario{
+    margin-top: 15px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #87A6B7
+}
+
+.perguntaLogin{
+    margin: 15px;
+    font-size: 15px;
+    color: #97C5DE;
+}
+
+#buttonEntrar{
+    margin-top: 30px;
+    width: 35%;
+    height: 45px;
+    font-size: 1.5rem;
+    color: #43687C;
+    background-color: #87A6B7;
+    border-radius: 10px;
+}
+
+#registrese{
+    margin: 0;
+    color: #97C5DE;
+    font-size: 20px;
+}
